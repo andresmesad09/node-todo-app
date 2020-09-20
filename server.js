@@ -42,7 +42,7 @@ mongoose.connect(dbUrl, {
 
 // define a simple route
 app.get('/', (req, res) => {
-    res.json({"message": "Welcome to Todo App."});
+    res.json({"message": "Welcome to Todo App - Se modifica para ver cambios en Heroku."});
 });
 
 // Require User routes
